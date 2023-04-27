@@ -1,0 +1,47 @@
+@media (max-width: 942px) {
+    html {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../images/bg-mobile.svg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .content {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header img {
+        width: 50%;
+    }
+
+    .image img {
+        width: 90%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .infos h1 {
+        font-size: 28px;
+    }
+
+    .infos h2 {
+        font-size: 28px;
+    }
+
+    footer {
+        margin-right: 0px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+}
